@@ -4,7 +4,12 @@
 
   <div flex="35" layout="column" class="boxWithHeight" layout-padding>
   PROFILE PICTURE 
-    <section flex="40"> What the heck!! </section>
+    <section flex="40" ng-controller="InboxCtrl"> What the heck!!
+      <h1>{{title}}</h1>
+      <input type="text" ng-model="title">
+      <button ng-click="titleFilter()"></button>
+    </section>
+
     <section flex>flex</section>
   </div>
   <div flex layout="column" class="boxWithHeight" layout-padding>
@@ -16,6 +21,7 @@
   </div>
 
 </body>
+<script src="require.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
