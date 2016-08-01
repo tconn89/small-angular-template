@@ -1,15 +1,3 @@
-HTTP/1.1 200 OK
-Cache-Control: private, must-revalidate
-Content-Type: application/json
-Date: Mon, 01 Aug 2016 03:07:58 GMT
-expires: -1
-pragma: no-cache
-Server: Mashape/5.0.6
-Set-Cookie: XSRF-TOKEN=eyJpdiI6ImpxNUZEb0Z5bHhwRUNvaVFQeU1EVXc9PSIsInZhbHVlIjoiQ0ZzQWM0TDBTb0NLeitQKytzXC9KMHV5XC81cytwY1ZWeThDcENpSkF6VE1sZlwvVUJMM1VleE0yQktJUEhxSndBVHNVNTI4ckZEUHFQek90RVhSRUdqMVE9PSIsIm1hYyI6IjhlOTE3OTRiNjliZWI5YmM3YTdjNDBkMTM1ODViMzE3MDA5ZTRmYTgyOTE3NmRmMzIwNjcwNmQ1N2VlNjBkYzUifQ%3D%3D; expires=Mon, 01-Aug-2016 05:07:58 GMT; Max-Age=7200; path=/
-Set-Cookie: laravel_session=eyJpdiI6InMwMkJFVHNOOGhWSDdXbjV5cTZKVHc9PSIsInZhbHVlIjoiY3JWajdMaElMWVNsUGREUWtEbVUxVUVYSWw4b201dnhMU0NJdWJyMUtubGhXY1N3VWJ4OGxrbDBEdHhIUlRFSjlJYjRCSzhsVUJha3d5RDlQUWRuNHc9PSIsIm1hYyI6ImEzZDAxY2RkNWEyZTQyOGFhMDJlMmFlOWIwMzg3NTc1MjUzMTBlODAxMWFmNzRlYTQyMmYyNDMzOTNkY2I3ODAifQ%3D%3D; expires=Mon, 01-Aug-2016 05:07:58 GMT; Max-Age=7200; path=/; httponly
-X-Powered-By: PHP/5.6.13
-transfer-encoding: chunked
-Connection: keep-alive
 
 [
    {
@@ -133,7 +121,7 @@ Connection: keep-alive
    },
    {
       "cardId":"AT_084e",
-      "name":"Equipped"http://wow.zamimg.com/images/hearthstone/cards/enus/original/AT_132_SHAMANa.png",
+      "name":"Equipped",
       "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/AT_132_SHAMANa_premium.gif",
       "locale":"enUS"
    },
